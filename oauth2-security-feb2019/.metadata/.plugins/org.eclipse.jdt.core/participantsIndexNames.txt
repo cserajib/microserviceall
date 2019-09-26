@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\micro\oauth2-security-feb2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4116918655.index
+\03mvc-security-javaconfig-solution\src\main\java
+C:\micro\oauth2-security-feb2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2607081349.index
+\03mvc-security-javaconfig-solution\src\main\java
+C:\micro\oauth2-security-feb2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1057210914.index
+\03mvc-security-javaconfig-solution\src\main\java
+C:\micro\oauth2-security-feb2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3996891049.index
+\03mvc-security-javaconfig-solution\src\main\java

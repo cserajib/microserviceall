@@ -1,0 +1,5 @@
+INDEX VERSION 1.4+C:\micro\oauth2-security-feb2019\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+739068144.index
+4124440318.index
+2653297367.index
+4212911723.index

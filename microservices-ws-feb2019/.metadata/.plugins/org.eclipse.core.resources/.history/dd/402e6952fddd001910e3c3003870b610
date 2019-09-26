@@ -1,0 +1,29 @@
+
+      
+eureka:    server:    enable-self-preservation: false
+  instance:
+    hostname: localhost   
+  client:    fetch-registry: false
+    register-with-eureka: false
+server:  port: 4001
+  
+  ---
+  spring:   
+  profiles: eurekaone 
+server:  
+  port: 4002       
+eureka:  
+  server:
+    enable-self-preservation: false
+  instance:
+    hostname: localhost   
+  client:
+    fetch-registry: true
+    register-with-eureka: false
+    serviceUrl:       
+      defaultZone: http://eureka-secondary:4003/eureka,http://eureka-tertiary:4004/eureka 
+ 
+     
+     
+     
+ 

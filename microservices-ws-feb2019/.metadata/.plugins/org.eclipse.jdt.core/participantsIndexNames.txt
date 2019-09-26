@@ -1,0 +1,13 @@
+INDEX VERSION 1.131
+C:\micro\microservices-ws-feb2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2177910592.index
+\Way2learnTraderApp\src\main\java
+C:\micro\microservices-ws-feb2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1628524368.index
+\01spring-security-inmemory\src\main\java
+C:\micro\microservices-ws-feb2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4263851137.index
+\01spring-security-inmemory\src\main\java
+C:\micro\microservices-ws-feb2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3496573650.index
+\01spring-security-inmemory\src\main\java
+C:\micro\microservices-ws-feb2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1021263112.index
+\01spring-security-inmemory\src\main\java
+C:\micro\microservices-ws-feb2019\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\417802343.index
+\Way2learnTraderApp\src\main\java

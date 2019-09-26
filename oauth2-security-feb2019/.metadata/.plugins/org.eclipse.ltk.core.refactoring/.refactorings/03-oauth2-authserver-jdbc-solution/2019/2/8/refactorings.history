@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;03-oauth2-authserver-jdbc-solution/src/main/resources/schemaold.sql&apos; to &apos;schema.sql&apos;" description="Rename resource &apos;schemaold.sql&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/schemaold.sql" name="schema.sql" stamp="1550382622535" updateReferences="true"/>
+</session>

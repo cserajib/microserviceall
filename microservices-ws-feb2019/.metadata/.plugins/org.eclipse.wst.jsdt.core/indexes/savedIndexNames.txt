@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\micro\microservices-ws-feb2019\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+803007054.index
+866012922.index
+1072701990.index
+4115597508.index
+3162134609.index
