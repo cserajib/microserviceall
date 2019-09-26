@@ -1,0 +1,25 @@
+version: "2"
+services:
+  db:
+     image: mysql:5.5
+     ports:
+      - "3306:3306"
+     environment:
+       MYSQL_ROOT_PASSWORD: root
+       MYSQL_DATABASE: micro
+       MYSQL_USER: root
+       MYSQL_PASSWORD: root
+  eureka:
+    image: way2learn/09-01-eurekaserver-usingdocker-solution
+    ports:
+      - "4001:4001"    
+  accounts:
+    image: way2learn/09-02-accounts-service-solution
+  quotes:
+    image: way2learn/09-03-quotes-service-solution
+  portfolio:
+    image: way2learn/09-04-portfolio-service-solution
+  gateway:
+    image: way2learn/09-05-gateway-zuul-solution
+  way2learntrader:
+    image: way2learn/09-06-way2learntrader-web-solution

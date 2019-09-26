@@ -1,0 +1,27 @@
+package com.way2learnonline;
+
+import java.security.Principal;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.oauth2.client.OAuth2ClientContext;
+import org.springframework.security.oauth2.client.resource.OAuth2ProtectedResourceDetails;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+	
+	@Autowired
+	private OAuth2ClientContext clientContext;
+	
+	@Autowired
+	private OAuth2ProtectedResourceDetails protectedResourceDetails;
+
+    @RequestMapping("/user")
+    public Principal user(Principal principal) {
+        System.out.println(principal);
+        System.out.println(clientContext);
+        System.out.println(protectedResourceDetails);
+        return principal;
+    }
+}

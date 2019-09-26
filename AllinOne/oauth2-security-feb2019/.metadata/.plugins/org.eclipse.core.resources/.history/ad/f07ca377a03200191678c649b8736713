@@ -1,0 +1,20 @@
+server:
+    port: 8082
+    context-path: /ui
+    session:
+      cookie:
+        name: UISESSION
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      clientId: way2learn
+      clientSecret: way2learn
+      accessTokenUri: http://localhost:9090/uaa/oauth/token
+      userAuthorizationUri: http://localhost:9090/uaa/oauth/authorize
+    resource:
+      userInfoUri: http://localhost:9090/uaa/user
+spring:
+  thymeleaf:
+    cache: false        

@@ -1,0 +1,19 @@
+version: "2"
+services:
+  eureka:
+    image: way2learn/09-01-eurekaserver-usingdocker-solution
+    ports:
+      - "4001:4001" 
+  mysql:
+     image: mysql:5.5
+     ports:
+      - "3306:3306"
+     environment:
+       MYSQL_ROOT_PASSWORD: root
+       MYSQL_DATABASE: micro
+     
+  accounts:
+    image: way2learn/09-02-accounts-service-solution
+    links: 
+      - mysql:mysql
+      - eureka:eureka

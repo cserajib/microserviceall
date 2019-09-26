@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+D:\microservices-feb2019\oauth2-security-dec2018\.metadata\.plugins\org.eclipse.jdt.core

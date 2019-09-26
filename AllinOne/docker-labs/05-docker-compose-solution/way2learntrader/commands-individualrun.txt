@@ -1,0 +1,19 @@
+docker run -d  --name demo-mysql   -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=micro  mysql:5.5
+
+docker run -d  --name eureka  --link demo-mysql:mysql  -p4001:4001  way2learn/09-01-eurekaserver-usingdocker-solution
+
+docker run -d  --name accountsservice --link demo-mysql:mysql  --link eureka:eureka way2learn/09-02-accounts-service-solution
+
+docker run -d   --name quotesservice --link demo-mysql:mysql  --link eureka:eureka way2learn/09-03-quotes-service-solution
+
+docker run -d  --name portfolioservice --link demo-mysql:mysql  --link eureka:eureka way2learn/09-04-portfolio-service-solution
+
+docker run  -d  --name gateway --link demo-mysql:mysql  --link eureka:eureka way2learn/09-05-gateway-zuul-solution
+
+docker run  --name way2learntrader --link demo-mysql:mysql  --link eureka:eureka way2learn/09-06-way2learntrader-web-solution
+
+
+docker rm  $(docker ps -a -q -f status=exited)
+docker rm  $(docker ps -a -q -f status=running)
+
+docker exec -it 

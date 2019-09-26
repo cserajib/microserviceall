@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.security.oauth2.provider.token.RemoteTokenServices"/>
+<fullyQualifiedTypeName name="org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer"/>
+<fullyQualifiedTypeName name="org.springframework.security.oauth2.client.OAuth2ClientContext"/>
+<fullyQualifiedTypeName name="org.springframework.security.oauth2.client.resource.OAuth2ProtectedResourceDetails"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.security.oauth2.client.OAuth2RestTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+</qualifiedTypeNameHistroy>

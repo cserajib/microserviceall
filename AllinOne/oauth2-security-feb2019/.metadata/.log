@@ -1,0 +1,2420 @@
+!SESSION 2019-02-17 11:17:49.617 -----------------------------------------------
+eclipse.buildId=4.0.1.201810300749-RELEASE
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2019-02-17 11:17:58.768
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-17 11:17:58.768
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@26d7cb0d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23e9dd78,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-02-17 11:18:05.739
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Sivaprasad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:42.659
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:47.733
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.mCIfvOje
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:47.735
+!MESSAGE subscribing to classpath changes: sts4.classpath.mCIfvOje
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:47.736
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:47.739
+!MESSAGE subsribers = [sts4.classpath.mCIfvOje]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:47.740
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.230
+!MESSAGE project 03-oauth2-authserver-jdbc-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.231
+!MESSAGE project 00way2learnparentusingboot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.232
+!MESSAGE project 00way2learnparentusingboot SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.232
+!MESSAGE project 01-oauth2-auth-resource-combined-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.233
+!MESSAGE project 01-oauth2-auth-resource-combined-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.233
+!MESSAGE project 01spring-security-inmemory ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.234
+!MESSAGE project 01spring-security-inmemory-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.235
+!MESSAGE project 02-oauth2-client-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.235
+!MESSAGE project 02-oauth2-client-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.236
+!MESSAGE project 03-oauth2-authserver-jdbc-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.236
+!MESSAGE project 03mvc-security-javaconfig-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.237
+!MESSAGE project 03mvc-security-javaconfig-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.238
+!MESSAGE project 04-oauth2-resource-server-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.238
+!MESSAGE project 04-oauth2-resource-server-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.239
+!MESSAGE project 05-oauth2-sso-client ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.240
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.240
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.mCIfvOje => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.244
+!MESSAGE Preparing classpath changed notification 03-oauth2-authserver-jdbc-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.245
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.262
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.263
+!MESSAGE executing callback sts4.classpath.mCIfvOje 03-oauth2-authserver-jdbc-solution false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.585
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.586
+!MESSAGE Preparing classpath changed notification 05-oauth2-sso-client
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.587
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.596
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.597
+!MESSAGE executing callback sts4.classpath.mCIfvOje 05-oauth2-sso-client false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.635
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.636
+!MESSAGE Preparing classpath changed notification 04-oauth2-resource-server-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.637
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.651
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.652
+!MESSAGE executing callback sts4.classpath.mCIfvOje 04-oauth2-resource-server-start false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.959
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.959
+!MESSAGE Preparing classpath changed notification 04-oauth2-resource-server-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.960
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.971
+!MESSAGE classpath=97 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.971
+!MESSAGE executing callback sts4.classpath.mCIfvOje 04-oauth2-resource-server-solution false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.994
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.995
+!MESSAGE Preparing classpath changed notification 03mvc-security-javaconfig-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:48.995
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.014
+!MESSAGE classpath=146 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.015
+!MESSAGE executing callback sts4.classpath.mCIfvOje 03mvc-security-javaconfig-start false 146
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.320
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.321
+!MESSAGE Preparing classpath changed notification 03mvc-security-javaconfig-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.322
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.336
+!MESSAGE classpath=146 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.337
+!MESSAGE executing callback sts4.classpath.mCIfvOje 03mvc-security-javaconfig-solution false 146
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.381
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.382
+!MESSAGE Preparing classpath changed notification 03-oauth2-authserver-jdbc-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.383
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.395
+!MESSAGE classpath=97 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.396
+!MESSAGE executing callback sts4.classpath.mCIfvOje 03-oauth2-authserver-jdbc-start false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.467
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.468
+!MESSAGE Preparing classpath changed notification 02-oauth2-client-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.468
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.477
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.478
+!MESSAGE executing callback sts4.classpath.mCIfvOje 02-oauth2-client-start false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.494
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.495
+!MESSAGE Preparing classpath changed notification 02-oauth2-client-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.495
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.504
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.505
+!MESSAGE executing callback sts4.classpath.mCIfvOje 02-oauth2-client-solution false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.540
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.541
+!MESSAGE Preparing classpath changed notification 01spring-security-inmemory-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.542
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.561
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.562
+!MESSAGE executing callback sts4.classpath.mCIfvOje 01spring-security-inmemory-start false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.603
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.604
+!MESSAGE Preparing classpath changed notification 01spring-security-inmemory
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.604
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.618
+!MESSAGE classpath=153 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.619
+!MESSAGE executing callback sts4.classpath.mCIfvOje 01spring-security-inmemory false 153
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.742
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.742
+!MESSAGE Preparing classpath changed notification 01-oauth2-auth-resource-combined-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.743
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.752
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.752
+!MESSAGE executing callback sts4.classpath.mCIfvOje 01-oauth2-auth-resource-combined-start false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.807
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.807
+!MESSAGE Preparing classpath changed notification 01-oauth2-auth-resource-combined-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.808
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.818
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.819
+!MESSAGE executing callback sts4.classpath.mCIfvOje 01-oauth2-auth-resource-combined-solution false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:19:49.895
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:23:10.660
+!MESSAGE Preparing classpath changed notification 03-oauth2-authserver-jdbc-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:23:10.661
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:23:10.688
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:23:10.688
+!MESSAGE executing callback sts4.classpath.mCIfvOje 03-oauth2-authserver-jdbc-solution false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:23:11.040
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:23:13.707
+!MESSAGE Preparing classpath changed notification 03-oauth2-authserver-jdbc-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:23:13.708
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:23:13.724
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:23:13.725
+!MESSAGE executing callback sts4.classpath.mCIfvOje 03-oauth2-authserver-jdbc-solution false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:23:13.738
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:30:10.042
+!MESSAGE Preparing classpath changed notification 04-oauth2-resource-server-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:30:10.043
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:30:10.064
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:30:10.073
+!MESSAGE executing callback sts4.classpath.mCIfvOje 04-oauth2-resource-server-solution false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:30:10.099
+!MESSAGE executing callback sts4.classpath.mCIfvOje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:34.913
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mCIfvOje
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:34.914
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.mCIfvOje
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:34.915
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:34.916
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mCIfvOje => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.917
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EHwsxESs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.918
+!MESSAGE subscribing to classpath changes: sts4.classpath.EHwsxESs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.919
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.920
+!MESSAGE subsribers = [sts4.classpath.EHwsxESs]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.920
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.922
+!MESSAGE project 04-oauth2-resource-server-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.922
+!MESSAGE Preparing classpath changed notification 04-oauth2-resource-server-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.923
+!MESSAGE project 00way2learnparentusingboot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.923
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.923
+!MESSAGE project 00way2learnparentusingboot SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.924
+!MESSAGE project 01-oauth2-auth-resource-combined-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.925
+!MESSAGE project 01-oauth2-auth-resource-combined-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.925
+!MESSAGE project 01spring-security-inmemory ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.926
+!MESSAGE project 01spring-security-inmemory-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.926
+!MESSAGE project 02-oauth2-client-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.927
+!MESSAGE project 02-oauth2-client-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.927
+!MESSAGE project 03-oauth2-authserver-jdbc-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.928
+!MESSAGE project 03-oauth2-authserver-jdbc-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.929
+!MESSAGE project 03mvc-security-javaconfig-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.930
+!MESSAGE project 03mvc-security-javaconfig-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.931
+!MESSAGE project 04-oauth2-resource-server-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.931
+!MESSAGE project 05-oauth2-sso-client ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.932
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.932
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EHwsxESs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.936
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:42.936
+!MESSAGE executing callback sts4.classpath.EHwsxESs 04-oauth2-resource-server-solution false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:43.918
+!MESSAGE executing callback sts4.classpath.EHwsxESs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:43.920
+!MESSAGE Preparing classpath changed notification 05-oauth2-sso-client
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:43.921
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:43.930
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:43.931
+!MESSAGE executing callback sts4.classpath.EHwsxESs 05-oauth2-sso-client false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:45.933
+!MESSAGE executing callback sts4.classpath.EHwsxESs FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-17 11:31:45.934
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedAwaitDone(CompletableFuture.java:365)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2260)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:45.935
+!MESSAGE Preparing classpath changed notification 04-oauth2-resource-server-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:45.936
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:45.970
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:45.970
+!MESSAGE executing callback sts4.classpath.EHwsxESs 04-oauth2-resource-server-start false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:46.257
+!MESSAGE executing callback sts4.classpath.EHwsxESs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:46.258
+!MESSAGE Preparing classpath changed notification 03mvc-security-javaconfig-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:46.259
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:46.300
+!MESSAGE classpath=146 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:46.300
+!MESSAGE executing callback sts4.classpath.EHwsxESs 03mvc-security-javaconfig-start false 146
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:46.905
+!MESSAGE executing callback sts4.classpath.EHwsxESs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:46.905
+!MESSAGE Preparing classpath changed notification 03mvc-security-javaconfig-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:46.906
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:46.926
+!MESSAGE classpath=146 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:46.927
+!MESSAGE executing callback sts4.classpath.EHwsxESs 03mvc-security-javaconfig-solution false 146
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.286
+!MESSAGE executing callback sts4.classpath.EHwsxESs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.287
+!MESSAGE Preparing classpath changed notification 03-oauth2-authserver-jdbc-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.287
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.301
+!MESSAGE classpath=97 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.301
+!MESSAGE executing callback sts4.classpath.EHwsxESs 03-oauth2-authserver-jdbc-start false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.330
+!MESSAGE executing callback sts4.classpath.EHwsxESs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.331
+!MESSAGE Preparing classpath changed notification 03-oauth2-authserver-jdbc-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.332
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.343
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.343
+!MESSAGE executing callback sts4.classpath.EHwsxESs 03-oauth2-authserver-jdbc-solution false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.362
+!MESSAGE executing callback sts4.classpath.EHwsxESs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.362
+!MESSAGE Preparing classpath changed notification 02-oauth2-client-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.363
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.373
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.374
+!MESSAGE executing callback sts4.classpath.EHwsxESs 02-oauth2-client-start false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.391
+!MESSAGE executing callback sts4.classpath.EHwsxESs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.391
+!MESSAGE Preparing classpath changed notification 02-oauth2-client-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.392
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.402
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.403
+!MESSAGE executing callback sts4.classpath.EHwsxESs 02-oauth2-client-solution false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.453
+!MESSAGE executing callback sts4.classpath.EHwsxESs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.454
+!MESSAGE Preparing classpath changed notification 01spring-security-inmemory-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.455
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.474
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.474
+!MESSAGE executing callback sts4.classpath.EHwsxESs 01spring-security-inmemory-start false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.533
+!MESSAGE executing callback sts4.classpath.EHwsxESs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.534
+!MESSAGE Preparing classpath changed notification 01spring-security-inmemory
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.535
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.553
+!MESSAGE classpath=153 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.554
+!MESSAGE executing callback sts4.classpath.EHwsxESs 01spring-security-inmemory false 153
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.631
+!MESSAGE executing callback sts4.classpath.EHwsxESs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.632
+!MESSAGE Preparing classpath changed notification 01-oauth2-auth-resource-combined-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.632
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.644
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.645
+!MESSAGE executing callback sts4.classpath.EHwsxESs 01-oauth2-auth-resource-combined-start false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.674
+!MESSAGE executing callback sts4.classpath.EHwsxESs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.675
+!MESSAGE Preparing classpath changed notification 01-oauth2-auth-resource-combined-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.675
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.684
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.685
+!MESSAGE executing callback sts4.classpath.EHwsxESs 01-oauth2-auth-resource-combined-solution false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:31:47.708
+!MESSAGE executing callback sts4.classpath.EHwsxESs SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-02-17 11:41:39.590
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2258)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:168)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo(SpringBootJavaHoverProvider.java:35)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:173)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:10.877
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.EHwsxESs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:10.878
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.EHwsxESs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:10.878
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:10.879
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.EHwsxESs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.936
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.RQZNTyCC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.937
+!MESSAGE subscribing to classpath changes: sts4.classpath.RQZNTyCC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.937
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.938
+!MESSAGE subsribers = [sts4.classpath.RQZNTyCC]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.939
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.940
+!MESSAGE project 04-oauth2-resource-server-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.940
+!MESSAGE Preparing classpath changed notification 04-oauth2-resource-server-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.941
+!MESSAGE project 00way2learnparentusingboot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.941
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.941
+!MESSAGE project 00way2learnparentusingboot SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.942
+!MESSAGE project 01-oauth2-auth-resource-combined-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.942
+!MESSAGE project 01-oauth2-auth-resource-combined-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.943
+!MESSAGE project 01spring-security-inmemory ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.943
+!MESSAGE project 01spring-security-inmemory-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.944
+!MESSAGE project 02-oauth2-client-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.944
+!MESSAGE project 02-oauth2-client-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.945
+!MESSAGE project 03-oauth2-authserver-jdbc-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.945
+!MESSAGE project 03-oauth2-authserver-jdbc-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.946
+!MESSAGE project 03mvc-security-javaconfig-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.946
+!MESSAGE project 03mvc-security-javaconfig-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.947
+!MESSAGE project 04-oauth2-resource-server-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.947
+!MESSAGE project 05-oauth2-sso-client ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.948
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.948
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.RQZNTyCC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.955
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:17.956
+!MESSAGE executing callback sts4.classpath.RQZNTyCC 04-oauth2-resource-server-solution false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:19.017
+!MESSAGE executing callback sts4.classpath.RQZNTyCC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:19.018
+!MESSAGE Preparing classpath changed notification 05-oauth2-sso-client
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:19.019
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:19.028
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:19.028
+!MESSAGE executing callback sts4.classpath.RQZNTyCC 05-oauth2-sso-client false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:20.450
+!MESSAGE executing callback sts4.classpath.RQZNTyCC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:20.451
+!MESSAGE Preparing classpath changed notification 04-oauth2-resource-server-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:20.451
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:20.464
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:20.465
+!MESSAGE executing callback sts4.classpath.RQZNTyCC 04-oauth2-resource-server-start false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:20.683
+!MESSAGE executing callback sts4.classpath.RQZNTyCC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:20.684
+!MESSAGE Preparing classpath changed notification 03mvc-security-javaconfig-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:20.684
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:20.701
+!MESSAGE classpath=146 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:20.702
+!MESSAGE executing callback sts4.classpath.RQZNTyCC 03mvc-security-javaconfig-start false 146
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.089
+!MESSAGE executing callback sts4.classpath.RQZNTyCC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.089
+!MESSAGE Preparing classpath changed notification 03mvc-security-javaconfig-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.090
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.103
+!MESSAGE classpath=146 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.104
+!MESSAGE executing callback sts4.classpath.RQZNTyCC 03mvc-security-javaconfig-solution false 146
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.588
+!MESSAGE executing callback sts4.classpath.RQZNTyCC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.588
+!MESSAGE Preparing classpath changed notification 03-oauth2-authserver-jdbc-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.588
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.600
+!MESSAGE classpath=97 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.601
+!MESSAGE executing callback sts4.classpath.RQZNTyCC 03-oauth2-authserver-jdbc-start false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.625
+!MESSAGE executing callback sts4.classpath.RQZNTyCC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.626
+!MESSAGE Preparing classpath changed notification 03-oauth2-authserver-jdbc-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.627
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.636
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.636
+!MESSAGE executing callback sts4.classpath.RQZNTyCC 03-oauth2-authserver-jdbc-solution false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.669
+!MESSAGE executing callback sts4.classpath.RQZNTyCC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.670
+!MESSAGE Preparing classpath changed notification 02-oauth2-client-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.671
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.680
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.680
+!MESSAGE executing callback sts4.classpath.RQZNTyCC 02-oauth2-client-start false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.834
+!MESSAGE executing callback sts4.classpath.RQZNTyCC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.835
+!MESSAGE Preparing classpath changed notification 02-oauth2-client-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.836
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.846
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.847
+!MESSAGE executing callback sts4.classpath.RQZNTyCC 02-oauth2-client-solution false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.906
+!MESSAGE executing callback sts4.classpath.RQZNTyCC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.907
+!MESSAGE Preparing classpath changed notification 01spring-security-inmemory-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.908
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.930
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.931
+!MESSAGE executing callback sts4.classpath.RQZNTyCC 01spring-security-inmemory-start false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.953
+!MESSAGE executing callback sts4.classpath.RQZNTyCC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.953
+!MESSAGE Preparing classpath changed notification 01spring-security-inmemory
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.954
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.967
+!MESSAGE classpath=153 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:21.968
+!MESSAGE executing callback sts4.classpath.RQZNTyCC 01spring-security-inmemory false 153
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:22.032
+!MESSAGE executing callback sts4.classpath.RQZNTyCC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:22.033
+!MESSAGE Preparing classpath changed notification 01-oauth2-auth-resource-combined-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:22.033
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:22.044
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:22.044
+!MESSAGE executing callback sts4.classpath.RQZNTyCC 01-oauth2-auth-resource-combined-start false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:22.063
+!MESSAGE executing callback sts4.classpath.RQZNTyCC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:22.064
+!MESSAGE Preparing classpath changed notification 01-oauth2-auth-resource-combined-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:22.064
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:22.073
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:22.074
+!MESSAGE executing callback sts4.classpath.RQZNTyCC 01-oauth2-auth-resource-combined-solution false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:22.096
+!MESSAGE executing callback sts4.classpath.RQZNTyCC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:43.918
+!MESSAGE Preparing classpath changed notification 04-oauth2-resource-server-start
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:43.919
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:43.942
+!MESSAGE classpath=101 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:43.943
+!MESSAGE executing callback sts4.classpath.RQZNTyCC 04-oauth2-resource-server-start false 101
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:45:44.180
+!MESSAGE executing callback sts4.classpath.RQZNTyCC SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2019-02-17 11:48:11.773
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:48:38.938
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RQZNTyCC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:48:38.938
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.RQZNTyCC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:48:38.939
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:48:38.939
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RQZNTyCC => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-02-17 11:48:40.049
+!MESSAGE Resource '/03mvc-security-javaconfig-solution/pom.xml' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/03mvc-security-javaconfig-solution/pom.xml)[368]: java.lang.Exception: Resource '/03mvc-security-javaconfig-solution/pom.xml' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:790)
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.deleteMarkers(MavenMarkerManager.java:229)
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.deleteMarkers(MavenMarkerManager.java:223)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readMavenProjectFacade(ProjectRegistryManager.java:694)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:398)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:351)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1$1.call(ProjectRegistryRefreshJob.java:89)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:87)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-02-17 11:48:40.050
+!MESSAGE Resource '/03mvc-security-javaconfig-solution/pom.xml' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/03mvc-security-javaconfig-solution/pom.xml' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:790)
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.deleteMarkers(MavenMarkerManager.java:229)
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.deleteMarkers(MavenMarkerManager.java:223)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readMavenProjectFacade(ProjectRegistryManager.java:694)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:398)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:351)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1$1.call(ProjectRegistryRefreshJob.java:89)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:87)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.090
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MNtgNeLc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.090
+!MESSAGE subscribing to classpath changes: sts4.classpath.MNtgNeLc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.091
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.092
+!MESSAGE subsribers = [sts4.classpath.MNtgNeLc]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.092
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.093
+!MESSAGE project 05-oauth2-sso-client ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.094
+!MESSAGE Preparing classpath changed notification 05-oauth2-sso-client
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.095
+!MESSAGE project 00way2learnparentusingboot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.095
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.095
+!MESSAGE project 00way2learnparentusingboot SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.096
+!MESSAGE project 01-oauth2-auth-resource-combined-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.096
+!MESSAGE project 01-oauth2-auth-resource-combined-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.097
+!MESSAGE project 01-oauth2-auth-resource-combined-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.097
+!MESSAGE project 01-oauth2-auth-resource-combined-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.098
+!MESSAGE project 01spring-security-inmemory ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.099
+!MESSAGE project 01spring-security-inmemory SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.099
+!MESSAGE project 01spring-security-inmemory-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.100
+!MESSAGE project 01spring-security-inmemory-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.100
+!MESSAGE project 02-oauth2-client-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.101
+!MESSAGE project 02-oauth2-client-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.101
+!MESSAGE project 02-oauth2-client-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.102
+!MESSAGE project 02-oauth2-client-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.102
+!MESSAGE project 03-oauth2-authserver-jdbc-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.102
+!MESSAGE project 03-oauth2-authserver-jdbc-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.103
+!MESSAGE project 03-oauth2-authserver-jdbc-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.103
+!MESSAGE project 03-oauth2-authserver-jdbc-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.104
+!MESSAGE project 03mvc-security-javaconfig-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.104
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.105
+!MESSAGE project 03mvc-security-javaconfig-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.105
+!MESSAGE executing callback sts4.classpath.MNtgNeLc 05-oauth2-sso-client false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.105
+!MESSAGE project 03mvc-security-javaconfig-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.106
+!MESSAGE project 03mvc-security-javaconfig-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.106
+!MESSAGE project 04-oauth2-resource-server-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.107
+!MESSAGE project 04-oauth2-resource-server-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.107
+!MESSAGE project 04-oauth2-resource-server-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.108
+!MESSAGE project 04-oauth2-resource-server-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.109
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.109
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MNtgNeLc => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 11:50:16.832
+!MESSAGE executing callback sts4.classpath.MNtgNeLc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:26.154
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.MNtgNeLc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:26.155
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.MNtgNeLc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:26.156
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:26.157
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.MNtgNeLc => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.893
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wRTuDVNM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.894
+!MESSAGE subscribing to classpath changes: sts4.classpath.wRTuDVNM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.895
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.895
+!MESSAGE subsribers = [sts4.classpath.wRTuDVNM]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.896
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.897
+!MESSAGE project 01-oauth2-auth-resource-combined-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.898
+!MESSAGE Preparing classpath changed notification 01-oauth2-auth-resource-combined-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.899
+!MESSAGE project 00way2learnparentusingboot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.899
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.900
+!MESSAGE project 00way2learnparentusingboot SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.900
+!MESSAGE project 01-oauth2-auth-resource-combined-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.901
+!MESSAGE project 01-oauth2-auth-resource-combined-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.902
+!MESSAGE project 01spring-security-inmemory ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.903
+!MESSAGE project 01spring-security-inmemory SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.903
+!MESSAGE project 01spring-security-inmemory-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.904
+!MESSAGE project 01spring-security-inmemory-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.905
+!MESSAGE project 02-oauth2-client-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.905
+!MESSAGE project 02-oauth2-client-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.906
+!MESSAGE project 02-oauth2-client-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.906
+!MESSAGE project 02-oauth2-client-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.907
+!MESSAGE project 03-oauth2-authserver-jdbc-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.907
+!MESSAGE project 03-oauth2-authserver-jdbc-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.908
+!MESSAGE project 03-oauth2-authserver-jdbc-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.908
+!MESSAGE project 03-oauth2-authserver-jdbc-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.909
+!MESSAGE project 03mvc-security-javaconfig-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.909
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.910
+!MESSAGE project 03mvc-security-javaconfig-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.910
+!MESSAGE executing callback sts4.classpath.wRTuDVNM 01-oauth2-auth-resource-combined-solution false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.911
+!MESSAGE project 03mvc-security-javaconfig-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.911
+!MESSAGE project 03mvc-security-javaconfig-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.912
+!MESSAGE project 04-oauth2-resource-server-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.912
+!MESSAGE project 04-oauth2-resource-server-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.913
+!MESSAGE project 04-oauth2-resource-server-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.914
+!MESSAGE project 04-oauth2-resource-server-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.914
+!MESSAGE project 05-oauth2-sso-client ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.915
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:31.916
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wRTuDVNM => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:32.093
+!MESSAGE executing callback sts4.classpath.wRTuDVNM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:32.094
+!MESSAGE Preparing classpath changed notification 05-oauth2-sso-client
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:32.094
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:32.103
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:32.104
+!MESSAGE executing callback sts4.classpath.wRTuDVNM 05-oauth2-sso-client false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:39:32.127
+!MESSAGE executing callback sts4.classpath.wRTuDVNM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:49:22.233
+!MESSAGE Preparing classpath changed notification 05-oauth-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:49:22.233
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:49:22.234
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:49:22.235
+!MESSAGE executing callback sts4.classpath.wRTuDVNM 05-oauth-server false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:49:24.236
+!MESSAGE executing callback sts4.classpath.wRTuDVNM FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-02-17 12:49:24.237
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedAwaitDone(CompletableFuture.java:365)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2260)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:49:24.237
+!MESSAGE Preparing classpath changed notification 05-oauth-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:49:24.238
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:49:24.244
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:49:24.245
+!MESSAGE executing callback sts4.classpath.wRTuDVNM 05-oauth-server false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:49:25.741
+!MESSAGE executing callback sts4.classpath.wRTuDVNM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:49:25.744
+!MESSAGE Preparing classpath changed notification 05-oauth-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:49:25.744
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:49:25.751
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:49:25.751
+!MESSAGE executing callback sts4.classpath.wRTuDVNM 05-oauth-server false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:49:26.149
+!MESSAGE executing callback sts4.classpath.wRTuDVNM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:50:42.355
+!MESSAGE Preparing classpath changed notification 05-oauth-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:50:42.356
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:50:42.365
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:50:42.365
+!MESSAGE executing callback sts4.classpath.wRTuDVNM 05-oauth-server false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 12:50:42.449
+!MESSAGE executing callback sts4.classpath.wRTuDVNM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:08:49.385
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.wRTuDVNM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:08:49.386
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.wRTuDVNM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:08:49.387
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:08:49.387
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.wRTuDVNM => OK
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-02-17 13:10:19.958
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2258)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilities(LanguageServerWrapper.java:563)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$8(LanguageServiceAccessor.java:372)
+	at org.eclipse.lsp4e.LanguageServiceAccessor$$Lambda$472/1839118870.test(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1540)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getMatchingStartedWrappers(LanguageServiceAccessor.java:374)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:284)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSPDocumentInfosFor(LanguageServiceAccessor.java:444)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverResults(LSBasedHover.java:325)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.initiateHoverRequest(LSBasedHover.java:310)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:165)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo(SpringBootJavaHoverProvider.java:35)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:173)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.339
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VzQjCAAV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.340
+!MESSAGE subscribing to classpath changes: sts4.classpath.VzQjCAAV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.340
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.341
+!MESSAGE subsribers = [sts4.classpath.VzQjCAAV]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.342
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.343
+!MESSAGE project 05-oauth-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.343
+!MESSAGE Preparing classpath changed notification 05-oauth-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.344
+!MESSAGE project 00way2learnparentusingboot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.344
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.344
+!MESSAGE project 00way2learnparentusingboot SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.345
+!MESSAGE project 01-oauth2-auth-resource-combined-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.345
+!MESSAGE project 01-oauth2-auth-resource-combined-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.346
+!MESSAGE project 01-oauth2-auth-resource-combined-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.346
+!MESSAGE project 01spring-security-inmemory ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.347
+!MESSAGE project 01spring-security-inmemory SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.347
+!MESSAGE project 01spring-security-inmemory-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.348
+!MESSAGE project 01spring-security-inmemory-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.348
+!MESSAGE project 02-oauth2-client-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.349
+!MESSAGE project 02-oauth2-client-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.349
+!MESSAGE project 02-oauth2-client-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.349
+!MESSAGE project 02-oauth2-client-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.349
+!MESSAGE project 03-oauth2-authserver-jdbc-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.350
+!MESSAGE project 03-oauth2-authserver-jdbc-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.350
+!MESSAGE project 03-oauth2-authserver-jdbc-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.351
+!MESSAGE project 03-oauth2-authserver-jdbc-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.351
+!MESSAGE project 03mvc-security-javaconfig-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.353
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.353
+!MESSAGE project 03mvc-security-javaconfig-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.353
+!MESSAGE executing callback sts4.classpath.VzQjCAAV 05-oauth-server false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.353
+!MESSAGE project 03mvc-security-javaconfig-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.353
+!MESSAGE project 03mvc-security-javaconfig-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.354
+!MESSAGE project 04-oauth2-resource-server-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.354
+!MESSAGE project 04-oauth2-resource-server-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.355
+!MESSAGE project 04-oauth2-resource-server-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.356
+!MESSAGE project 04-oauth2-resource-server-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.356
+!MESSAGE project 05-oauth2-sso-client ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.357
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:20.357
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VzQjCAAV => OK
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-02-17 13:10:20.521
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedAwaitDone(CompletableFuture.java:365)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2260)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:168)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo(SpringBootJavaHoverProvider.java:35)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:173)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:21.348
+!MESSAGE executing callback sts4.classpath.VzQjCAAV SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:21.349
+!MESSAGE Preparing classpath changed notification 05-oauth2-sso-client
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:21.349
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:21.403
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:21.403
+!MESSAGE executing callback sts4.classpath.VzQjCAAV 05-oauth2-sso-client false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:22.929
+!MESSAGE executing callback sts4.classpath.VzQjCAAV SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:22.929
+!MESSAGE Preparing classpath changed notification 01-oauth2-auth-resource-combined-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:22.930
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:22.938
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:22.939
+!MESSAGE executing callback sts4.classpath.VzQjCAAV 01-oauth2-auth-resource-combined-solution false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:10:22.959
+!MESSAGE executing callback sts4.classpath.VzQjCAAV SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:13:10.647
+!MESSAGE Preparing classpath changed notification 01-oauth2-auth-resource-combined-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:13:10.648
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:13:10.649
+!MESSAGE executing callback sts4.classpath.VzQjCAAV 01-oauth2-auth-resource-combined-solution true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:13:10.678
+!MESSAGE executing callback sts4.classpath.VzQjCAAV SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-02-17 13:22:53.495
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model for com.way2learnonline:mvc-security-javaconfig-solution:[unknown-version]
+[FATAL] Non-resolvable parent POM for com.way2learnonline:mvc-security-javaconfig-solution:[unknown-version]: Could not find artifact com.way2learnonline:00way2learnparentusingboot:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 3, column 11
+ for project com.way2learnonline:mvc-security-javaconfig-solution:[unknown-version] at D:\microservices-feb2019\oauth2-security-dec2018\03mvc-security-javaconfig-solution\pom.xml
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model for com.way2learnonline:mvc-security-javaconfig-solution:[unknown-version]
+[FATAL] Non-resolvable parent POM for com.way2learnonline:mvc-security-javaconfig-solution:[unknown-version]: Could not find artifact com.way2learnonline:00way2learnparentusingboot:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 3, column 11
+ for project com.way2learnonline:mvc-security-javaconfig-solution:[unknown-version] at D:\microservices-feb2019\oauth2-security-dec2018\03mvc-security-javaconfig-solution\pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:165)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:116)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:740)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1074)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model for com.way2learnonline:mvc-security-javaconfig-solution:[unknown-version]
+[FATAL] Non-resolvable parent POM for com.way2learnonline:mvc-security-javaconfig-solution:[unknown-version]: Could not find artifact com.way2learnonline:00way2learnparentusingboot:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 3, column 11
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally(DefaultModelBuilder.java:1082)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParent(DefaultModelBuilder.java:830)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:332)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:158)
+	... 15 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:21.486
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VzQjCAAV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:21.487
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.VzQjCAAV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:21.488
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:21.489
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VzQjCAAV => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.018
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kJCEAcSW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.019
+!MESSAGE subscribing to classpath changes: sts4.classpath.kJCEAcSW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.019
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.020
+!MESSAGE subsribers = [sts4.classpath.kJCEAcSW]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.020
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.061
+!MESSAGE project 05-oauth-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.062
+!MESSAGE Preparing classpath changed notification 05-oauth-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.064
+!MESSAGE project 00way2learnparentusingboot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.064
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.064
+!MESSAGE project 00way2learnparentusingboot SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.064
+!MESSAGE project 01-oauth2-auth-resource-combined-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.065
+!MESSAGE project 01-oauth2-auth-resource-combined-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.065
+!MESSAGE project 01-oauth2-auth-resource-combined-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.066
+!MESSAGE project 01-oauth2-auth-resource-combined-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.066
+!MESSAGE project 01spring-security-inmemory ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.067
+!MESSAGE project 01spring-security-inmemory SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.067
+!MESSAGE project 01spring-security-inmemory-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.069
+!MESSAGE project 01spring-security-inmemory-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.069
+!MESSAGE project 02-oauth2-client-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.070
+!MESSAGE project 02-oauth2-client-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.071
+!MESSAGE project 02-oauth2-client-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.071
+!MESSAGE project 02-oauth2-client-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.072
+!MESSAGE project 03-oauth2-authserver-jdbc-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.072
+!MESSAGE project 03-oauth2-authserver-jdbc-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.073
+!MESSAGE project 03-oauth2-authserver-jdbc-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.073
+!MESSAGE project 03-oauth2-authserver-jdbc-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.074
+!MESSAGE project 03mvc-security-javaconfig-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.074
+!MESSAGE project 03mvc-security-javaconfig-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.075
+!MESSAGE project 03mvc-security-javaconfig-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.075
+!MESSAGE project 04-oauth2-resource-server-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.075
+!MESSAGE project 04-oauth2-resource-server-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.076
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.076
+!MESSAGE project 04-oauth2-resource-server-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.077
+!MESSAGE executing callback sts4.classpath.kJCEAcSW 05-oauth-server false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.077
+!MESSAGE project 04-oauth2-resource-server-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.077
+!MESSAGE project 05-oauth2-sso-client ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.078
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.079
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kJCEAcSW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.842
+!MESSAGE executing callback sts4.classpath.kJCEAcSW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.843
+!MESSAGE Preparing classpath changed notification 05-oauth2-sso-client
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.844
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.856
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:36.857
+!MESSAGE executing callback sts4.classpath.kJCEAcSW 05-oauth2-sso-client false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:38.559
+!MESSAGE executing callback sts4.classpath.kJCEAcSW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:38.560
+!MESSAGE Preparing classpath changed notification 03mvc-security-javaconfig-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:38.561
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:38.577
+!MESSAGE classpath=146 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:38.577
+!MESSAGE executing callback sts4.classpath.kJCEAcSW 03mvc-security-javaconfig-solution false 146
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 13:23:38.972
+!MESSAGE executing callback sts4.classpath.kJCEAcSW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 14:58:34.433
+!MESSAGE Preparing classpath changed notification 01-oauth2-auth-resource-combined-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 14:58:34.434
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 14:58:34.448
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 14:58:34.448
+!MESSAGE executing callback sts4.classpath.kJCEAcSW 01-oauth2-auth-resource-combined-solution false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 14:58:34.475
+!MESSAGE executing callback sts4.classpath.kJCEAcSW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 14:59:38.353
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.kJCEAcSW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 14:59:38.354
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.kJCEAcSW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 14:59:38.354
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 14:59:38.355
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.kJCEAcSW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.498
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.uelKfaDY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.498
+!MESSAGE subscribing to classpath changes: sts4.classpath.uelKfaDY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.499
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.500
+!MESSAGE subsribers = [sts4.classpath.uelKfaDY]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.500
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.501
+!MESSAGE project 05-oauth-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.502
+!MESSAGE Preparing classpath changed notification 05-oauth-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.502
+!MESSAGE project 00way2learnparentusingboot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.502
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.503
+!MESSAGE project 00way2learnparentusingboot SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.503
+!MESSAGE project 01-oauth2-auth-resource-combined-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.504
+!MESSAGE project 01-oauth2-auth-resource-combined-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.504
+!MESSAGE project 01-oauth2-auth-resource-combined-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.505
+!MESSAGE project 01spring-security-inmemory ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.505
+!MESSAGE project 01spring-security-inmemory SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.506
+!MESSAGE project 01spring-security-inmemory-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.506
+!MESSAGE project 01spring-security-inmemory-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.506
+!MESSAGE project 02-oauth2-client-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.507
+!MESSAGE project 02-oauth2-client-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.507
+!MESSAGE project 02-oauth2-client-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.508
+!MESSAGE project 02-oauth2-client-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.508
+!MESSAGE project 03-oauth2-authserver-jdbc-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.509
+!MESSAGE project 03-oauth2-authserver-jdbc-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.509
+!MESSAGE project 03-oauth2-authserver-jdbc-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.510
+!MESSAGE project 03-oauth2-authserver-jdbc-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.510
+!MESSAGE project 03mvc-security-javaconfig-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.510
+!MESSAGE project 03mvc-security-javaconfig-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.510
+!MESSAGE project 03mvc-security-javaconfig-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.510
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.512
+!MESSAGE project 04-oauth2-resource-server-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.512
+!MESSAGE executing callback sts4.classpath.uelKfaDY 05-oauth-server false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.512
+!MESSAGE project 04-oauth2-resource-server-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.512
+!MESSAGE project 04-oauth2-resource-server-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.512
+!MESSAGE project 04-oauth2-resource-server-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.513
+!MESSAGE project 05-oauth2-sso-client ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.514
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:03.514
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.uelKfaDY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:04.276
+!MESSAGE executing callback sts4.classpath.uelKfaDY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:04.277
+!MESSAGE Preparing classpath changed notification 05-oauth2-sso-client
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:04.278
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:04.289
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:04.290
+!MESSAGE executing callback sts4.classpath.uelKfaDY 05-oauth2-sso-client false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:05.860
+!MESSAGE executing callback sts4.classpath.uelKfaDY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:05.860
+!MESSAGE Preparing classpath changed notification 03mvc-security-javaconfig-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:05.861
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:05.880
+!MESSAGE classpath=146 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:05.880
+!MESSAGE executing callback sts4.classpath.uelKfaDY 03mvc-security-javaconfig-solution false 146
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:06.297
+!MESSAGE executing callback sts4.classpath.uelKfaDY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:06.297
+!MESSAGE Preparing classpath changed notification 01-oauth2-auth-resource-combined-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:06.298
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:06.309
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:06.309
+!MESSAGE executing callback sts4.classpath.uelKfaDY 01-oauth2-auth-resource-combined-solution false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:00:06.695
+!MESSAGE executing callback sts4.classpath.uelKfaDY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:15.095
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uelKfaDY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:15.096
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.uelKfaDY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:15.096
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:15.097
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uelKfaDY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.798
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FRmIfUqK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.798
+!MESSAGE subscribing to classpath changes: sts4.classpath.FRmIfUqK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.799
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.800
+!MESSAGE subsribers = [sts4.classpath.FRmIfUqK]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.800
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.801
+!MESSAGE project 02-oauth2-client-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.802
+!MESSAGE Preparing classpath changed notification 02-oauth2-client-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.802
+!MESSAGE project 00way2learnparentusingboot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.803
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.803
+!MESSAGE project 00way2learnparentusingboot SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.804
+!MESSAGE project 01-oauth2-auth-resource-combined-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.804
+!MESSAGE project 01-oauth2-auth-resource-combined-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.805
+!MESSAGE project 01-oauth2-auth-resource-combined-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.805
+!MESSAGE project 01spring-security-inmemory ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.805
+!MESSAGE project 01spring-security-inmemory SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.806
+!MESSAGE project 01spring-security-inmemory-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.806
+!MESSAGE project 01spring-security-inmemory-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.807
+!MESSAGE project 02-oauth2-client-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.807
+!MESSAGE project 02-oauth2-client-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.808
+!MESSAGE project 03-oauth2-authserver-jdbc-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.808
+!MESSAGE project 03-oauth2-authserver-jdbc-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.809
+!MESSAGE project 03-oauth2-authserver-jdbc-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.809
+!MESSAGE project 03-oauth2-authserver-jdbc-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.810
+!MESSAGE project 03mvc-security-javaconfig-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.810
+!MESSAGE project 03mvc-security-javaconfig-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.811
+!MESSAGE project 03mvc-security-javaconfig-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.811
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.811
+!MESSAGE project 04-oauth2-resource-server-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.812
+!MESSAGE executing callback sts4.classpath.FRmIfUqK 02-oauth2-client-solution false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.812
+!MESSAGE project 04-oauth2-resource-server-solution SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.812
+!MESSAGE project 04-oauth2-resource-server-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.813
+!MESSAGE project 04-oauth2-resource-server-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.813
+!MESSAGE project 05-oauth-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.814
+!MESSAGE project 05-oauth2-sso-client ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.815
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:58.815
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FRmIfUqK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:59.934
+!MESSAGE executing callback sts4.classpath.FRmIfUqK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:59.935
+!MESSAGE Preparing classpath changed notification 05-oauth2-sso-client
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:59.936
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:59.945
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:51:59.946
+!MESSAGE executing callback sts4.classpath.FRmIfUqK 05-oauth2-sso-client false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:01.521
+!MESSAGE executing callback sts4.classpath.FRmIfUqK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:01.521
+!MESSAGE Preparing classpath changed notification 05-oauth-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:01.522
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:01.533
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:01.534
+!MESSAGE executing callback sts4.classpath.FRmIfUqK 05-oauth-server false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:01.730
+!MESSAGE executing callback sts4.classpath.FRmIfUqK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:01.730
+!MESSAGE Preparing classpath changed notification 03mvc-security-javaconfig-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:01.731
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:01.749
+!MESSAGE classpath=146 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:01.750
+!MESSAGE executing callback sts4.classpath.FRmIfUqK 03mvc-security-javaconfig-solution false 146
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:02.210
+!MESSAGE executing callback sts4.classpath.FRmIfUqK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:02.211
+!MESSAGE Preparing classpath changed notification 01-oauth2-auth-resource-combined-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:02.212
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:02.223
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:02.223
+!MESSAGE executing callback sts4.classpath.FRmIfUqK 01-oauth2-auth-resource-combined-solution false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 15:52:02.459
+!MESSAGE executing callback sts4.classpath.FRmIfUqK SUCCESS [done]
+
+!ENTRY org.eclipse.jface 2 0 2019-02-17 16:00:42.152
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-17 16:00:42.152
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.RunToLine,Run to Line,
+		Resume and break when execution reaches the current line,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f330654,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.springframework.ide.eclipse.boot.restart.commands.restart,Trigger Restart,
+		Restart Spring Boot Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5eb2d5db,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-02-17 16:07:36.780
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2258)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilities(LanguageServerWrapper.java:563)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$8(LanguageServiceAccessor.java:372)
+	at org.eclipse.lsp4e.LanguageServiceAccessor$$Lambda$472/1839118870.test(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1540)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getMatchingStartedWrappers(LanguageServiceAccessor.java:374)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:284)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSPDocumentInfosFor(LanguageServiceAccessor.java:444)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverResults(LSBasedHover.java:325)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.initiateHoverRequest(LSBasedHover.java:310)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:165)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo(SpringBootJavaHoverProvider.java:35)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:173)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:26.887
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FRmIfUqK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:26.887
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.FRmIfUqK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:26.888
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:26.888
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FRmIfUqK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.415
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NtoYIQTe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.416
+!MESSAGE subscribing to classpath changes: sts4.classpath.NtoYIQTe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.416
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.417
+!MESSAGE subsribers = [sts4.classpath.NtoYIQTe]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.417
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.418
+!MESSAGE project 05-oauth-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.419
+!MESSAGE Preparing classpath changed notification 05-oauth-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.419
+!MESSAGE project 00way2learnparentusingboot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.420
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.420
+!MESSAGE project 00way2learnparentusingboot SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.421
+!MESSAGE project 01-oauth2-auth-resource-combined-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.421
+!MESSAGE project 01-oauth2-auth-resource-combined-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.422
+!MESSAGE project 01-oauth2-auth-resource-combined-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.422
+!MESSAGE project 01spring-security-inmemory ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.423
+!MESSAGE project 01spring-security-inmemory SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.423
+!MESSAGE project 01spring-security-inmemory-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.424
+!MESSAGE project 01spring-security-inmemory-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.424
+!MESSAGE project 02-oauth2-client-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.425
+!MESSAGE project 02-oauth2-client-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.425
+!MESSAGE project 02-oauth2-client-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.426
+!MESSAGE project 03-oauth2-authserver-jdbc-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.426
+!MESSAGE project 03-oauth2-authserver-jdbc-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.427
+!MESSAGE project 03-oauth2-authserver-jdbc-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.427
+!MESSAGE project 03mvc-security-javaconfig-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.428
+!MESSAGE project 03mvc-security-javaconfig-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.428
+!MESSAGE project 03mvc-security-javaconfig-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.429
+!MESSAGE project 04-oauth2-resource-server-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.429
+!MESSAGE project 04-oauth2-resource-server-start ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.430
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.430
+!MESSAGE project 04-oauth2-resource-server-start SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.430
+!MESSAGE executing callback sts4.classpath.NtoYIQTe 05-oauth-server false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.431
+!MESSAGE project 05-oauth2-sso-client ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.431
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:34.432
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NtoYIQTe => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:35.222
+!MESSAGE executing callback sts4.classpath.NtoYIQTe SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:35.223
+!MESSAGE Preparing classpath changed notification 05-oauth2-sso-client
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:35.223
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:35.235
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:35.236
+!MESSAGE executing callback sts4.classpath.NtoYIQTe 05-oauth2-sso-client false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:36.834
+!MESSAGE executing callback sts4.classpath.NtoYIQTe SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:36.834
+!MESSAGE Preparing classpath changed notification 04-oauth2-resource-server-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:36.835
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:36.845
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:36.846
+!MESSAGE executing callback sts4.classpath.NtoYIQTe 04-oauth2-resource-server-solution false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:36.884
+!MESSAGE executing callback sts4.classpath.NtoYIQTe SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:36.885
+!MESSAGE Preparing classpath changed notification 03mvc-security-javaconfig-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:36.885
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:36.902
+!MESSAGE classpath=146 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:36.903
+!MESSAGE executing callback sts4.classpath.NtoYIQTe 03mvc-security-javaconfig-solution false 146
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.286
+!MESSAGE executing callback sts4.classpath.NtoYIQTe SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.287
+!MESSAGE Preparing classpath changed notification 03-oauth2-authserver-jdbc-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.288
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.298
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.299
+!MESSAGE executing callback sts4.classpath.NtoYIQTe 03-oauth2-authserver-jdbc-solution false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.467
+!MESSAGE executing callback sts4.classpath.NtoYIQTe SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.468
+!MESSAGE Preparing classpath changed notification 02-oauth2-client-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.468
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.479
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.479
+!MESSAGE executing callback sts4.classpath.NtoYIQTe 02-oauth2-client-solution false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.507
+!MESSAGE executing callback sts4.classpath.NtoYIQTe SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.507
+!MESSAGE Preparing classpath changed notification 01-oauth2-auth-resource-combined-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.508
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.517
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.517
+!MESSAGE executing callback sts4.classpath.NtoYIQTe 01-oauth2-auth-resource-combined-solution false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:37.531
+!MESSAGE executing callback sts4.classpath.NtoYIQTe SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:48.686
+!MESSAGE Preparing classpath changed notification 03-oauth2-authserver-jdbc-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:48.686
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:48.688
+!MESSAGE executing callback sts4.classpath.NtoYIQTe 03-oauth2-authserver-jdbc-solution true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:21:48.705
+!MESSAGE executing callback sts4.classpath.NtoYIQTe SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:22:49.380
+!MESSAGE Preparing classpath changed notification 01-oauth2-auth-resource-combined-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:22:49.381
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:22:49.381
+!MESSAGE executing callback sts4.classpath.NtoYIQTe 01-oauth2-auth-resource-combined-solution true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:22:49.397
+!MESSAGE executing callback sts4.classpath.NtoYIQTe SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:22:56.507
+!MESSAGE Preparing classpath changed notification 02-oauth2-client-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:22:56.507
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:22:56.508
+!MESSAGE executing callback sts4.classpath.NtoYIQTe 02-oauth2-client-solution true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:22:56.518
+!MESSAGE executing callback sts4.classpath.NtoYIQTe SUCCESS [done]
+
+!ENTRY org.eclipse.ui 4 4 2019-02-17 16:22:58.270
+!MESSAGE Plug-in 'org.springframework.ide.eclipse.boot' contributed an invalid Menu Extension (Path: 'org.springframework.ide.eclipse.ui.tools' is invalid): org.springframework.ide.eclipse.boot.ui.EnableDisableBootDevtools
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:23:00.914
+!MESSAGE Preparing classpath changed notification 03mvc-security-javaconfig-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:23:00.914
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:23:00.916
+!MESSAGE executing callback sts4.classpath.NtoYIQTe 03mvc-security-javaconfig-solution true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:23:00.947
+!MESSAGE executing callback sts4.classpath.NtoYIQTe SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:26:36.998
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NtoYIQTe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:26:36.999
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NtoYIQTe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:26:37.000
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-17 16:26:37.000
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NtoYIQTe => OK

@@ -1,0 +1,227 @@
+http://resources.way2learnonline.com/micro2019/
+
+http://resources.way2learnonline.com/micro
+
+---------------------------------------------------------------------------------------------------------------------------------
+DOCKER Demo in Docker toolbox
+
+
+Start interactive shell
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 /c/Program Files/Docker Toolbox
+$ docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED
+STATUS              PORTS               NAMES
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 /c/Program Files/Docker Toolbox
+$ cd C:\Users\Admin\Downloads\docker-labs\01-static-webapp-in-apache2-solution
+bash: cd: C:UsersAdminDownloadsdocker-labs01-static-webapp-in-apache2-solution:
+No such file or directory
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 /c/Program Files/Docker Toolbox
+$ cd /c/Users/Admin/Downloads/docker-labs/01-static-webapp-in-apache2-solution/
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads/docker-labs/01-static-webapp-i
+n-apache2-solution
+$ ls
+Dockerfile  public_html/
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads/docker-labs/01-static-webapp-i
+n-apache2-solution
+$ docker build -t siva-apache .
+Sending build context to Docker daemon  3.584kB
+Step 1/2 : FROM httpd:2.4
+2.4: Pulling from library/httpd
+b8f262c62ec6: Pull complete
+2c31b9311798: Pull complete
+7422a3cdf4e3: Pull complete
+1919d4fbf9e1: Pull complete
+60812fa1ab4c: Pull complete
+Digest: sha256:39d7d9a3ab93c0ad68ee7ea237722ed1b0016ff6974d80581022a53ec1e58797
+Status: Downloaded newer image for httpd:2.4
+ ---> 19459a872194
+Step 2/2 : COPY ./public_html/ /usr/local/apache2/htdocs/
+ ---> 0043916a74eb
+Successfully built 0043916a74eb
+Successfully tagged siva-apache:latest
+SECURITY WARNING: You are building a Docker image from Windows against a non-Win
+dows Docker host. All files and directories added to build context will have '-r
+wxr-xr-x' permissions. It is recommended to double check and reset permissions f
+or sensitive files and directories.
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads/docker-labs/01-static-webapp-i
+n-apache2-solution
+$
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads/docker-labs/01-static-webapp-i
+n-apache2-solution
+$
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads/docker-labs/01-static-webapp-i
+n-apache2-solution
+$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED
+SIZE
+siva-apache         latest              0043916a74eb        28 seconds ago
+154MB
+httpd               2.4                 19459a872194        13 days ago
+154MB
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads/docker-labs/01-static-webapp-i
+n-apache2-solution
+$
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads/docker-labs/01-static-webapp-i
+n-apache2-solution
+$ docker run -P siva-apache
+AH00558: httpd: Could not reliably determine the server's fully qualified domain
+ name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress thi
+s message
+AH00558: httpd: Could not reliably determine the server's fully qualified domain
+ name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress thi
+s message
+[Thu Sep 26 10:37:23.618644 2019] [mpm_event:notice] [pid 1:tid 140278122984576]
+ AH00489: Apache/2.4.41 (Unix) configured -- resuming normal operations
+[Thu Sep 26 10:37:23.619036 2019] [core:notice] [pid 1:tid 140278122984576] AH00
+094: Command line: 'httpd -D FOREGROUND'
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads/docker-labs/01-static-webapp-i
+n-apache2-solution
+$ docker ps
+CONTAINER ID        IMAGE               COMMAND              CREATED
+ STATUS              PORTS                   NAMES
+ba287082a10d        siva-apache         "httpd-foreground"   15 seconds ago
+ Up 15 seconds       0.0.0.0:32768->80/tcp   infallible_roentgen
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads/docker-labs/01-static-webapp-i
+n-apache2-solution
+$ docker-machine ip
+192.168.99.100
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads/docker-labs/01-static-webapp-i
+n-apache2-solution
+$
+
+--------------------------------------------------------------------------------------------------
+
+verBootstrap   : Eureka environment value eureka.environment is not set, default
+ing to test
+2019-09-26 10:49:21.078  INFO 1 --- [      Thread-10] o.s.c.n.e.server.EurekaSer
+verBootstrap   : isAws returned false
+2019-09-26 10:49:21.079  INFO 1 --- [      Thread-10] o.s.c.n.e.server.EurekaSer
+verBootstrap   : Initialized server context
+2019-09-26 10:49:21.080  INFO 1 --- [      Thread-10] c.n.e.r.PeerAwareInstanceR
+egistryImpl    : Got 1 instances from neighboring DS node
+2019-09-26 10:49:21.082  INFO 1 --- [      Thread-10] c.n.e.r.PeerAwareInstanceR
+egistryImpl    : Renew threshold is: 1
+2019-09-26 10:49:21.083  INFO 1 --- [      Thread-10] c.n.e.r.PeerAwareInstanceR
+egistryImpl    : Changing status to UP
+2019-09-26 10:49:21.121  INFO 1 --- [      Thread-10] e.s.EurekaServerInitialize
+rConfiguration : Started Eureka Server
+2019-09-26 10:49:21.348  INFO 1 --- [           main] s.b.c.e.t.TomcatEmbeddedSe
+rvletContainer : Tomcat started on port(s): 4001 (http)
+2019-09-26 10:49:21.350  INFO 1 --- [           main] c.n.e.EurekaDiscoveryClien
+tConfiguration : Updating port to 4001
+2019-09-26 10:49:21.359  INFO 1 --- [           main] com.way2learnonline.Eureka
+Server         : Started EurekaServer in 19.79 seconds (JVM running for 20.675)
+2019-09-26 10:49:38.305  INFO 1 --- [nio-4001-exec-1] o.a.c.c.C.[Tomcat].[localh
+ost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-26 10:49:38.307  INFO 1 --- [nio-4001-exec-1] o.s.web.servlet.Dispatcher
+Servlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-09-26 10:49:38.368  INFO 1 --- [nio-4001-exec-1] o.s.web.servlet.Dispatcher
+Servlet        : FrameworkServlet 'dispatcherServlet': initialization completed
+in 61 ms
+2019-09-26 10:50:21.097  INFO 1 --- [a-EvictionTimer] c.n.e.registry.AbstractIns
+tanceRegistry  : Running the evict task with compensationTime 0ms
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads/docker-labs/02-running-jar-sol
+ution
+$ history
+    1  docker ps
+    2  cd C:\Users\Admin\Downloads\docker-labs\01-static-webapp-in-apache2-solut
+ion
+    3  cd /c/Users/Admin/Downloads/docker-labs/01-static-webapp-in-apache2-solut
+ion/
+    4  ls
+    5  docker build -t siva-apache .
+    6  docker images
+    7  docker run -P siva-apache
+    8  docker ps
+    9  docker-machine ip
+   10  cd ..
+   11  cd 02-running-jar-solution/
+   12  ls -ltr
+   13  docker build -t eurekatest
+   14  docker build -t eurekatest .
+   15  docker images
+   16  docker run eurekatest
+   17  docker run -p"1234:4001" eurekatest
+   18  history
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads/docker-labs/02-running-jar-sol
+ution
+$
+
+
+------------------------------------------------------------
+https://github.com/docker/toolbox/releases
+
+---------------------------------------------------------------------------------------------------
+rabbitmq
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads
+$ docker run -d -P --hostname my-rabbit --name some-rabbit rabbitmq:3-managemen
+t
+C:\Program Files\Docker Toolbox\docker.exe: Error response from daemon: Conflict
+. The container name "/some-rabbit" is already in use by container "f0029ed7002d
+b298464ef7af467e80b82832ad89cbbe47598fe5c3cf8f7c12c8". You have to remove (or re
+name) that container to be able to reuse that name.
+See 'C:\Program Files\Docker Toolbox\docker.exe run --help'.
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads
+$ docker run -d -P --hostname my-rabbit --name some-rabbit2 rabbitmq:3-manageme
+nt
+7b2432c8d612f9ca419e99ff90e1cd3259ca4f6b463dd5aaff41eae37f3f8f4a
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads
+$ docker-machine ip
+192.168.99.100
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads
+$ docker run -d -p 9797:15672 --hostname my-rabbit --name some-rabbit77 rabbitm
+q:3-management
+0ab23ffb5230aa784f3506c7fb2fe64984ea3cfc80109c2266c9b28c41701e85
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads
+$ docker ps
+CONTAINER ID        IMAGE                   COMMAND                  CREATED
+          STATUS              PORTS
+
+                        NAMES
+0ab23ffb5230        rabbitmq:3-management   "docker-entrypoint.s"   About a minu
+te ago   Up About a minute   4369/tcp, 5671-5672/tcp, 15671/tcp, 25672/tcp, 0.0.
+0.0:9797->15672/tcp
+                       some-rabbit77
+7b2432c8d612        rabbitmq:3-management   "docker-entrypoint.s"   34 minutes a
+go       Up 34 minutes       0.0.0.0:32774->4369/tcp, 0.0.0.0:32773->5671/tcp, 0
+.0.0.0:32772->5672/tcp, 0.0.0.0:32771->15671/tcp, 0.0.0.0:32770->15672/tcp, 0.0.
+0.0:32769->25672/tcp   some-rabbit2
+f0029ed7002d        rabbitmq:3-management   "docker-entrypoint.s"   35 minutes a
+go       Up 35 minutes       4369/tcp, 5671-5672/tcp, 15671-15672/tcp, 25672/tcp
+
+                       some-rabbit
+b356082dd9c4        eurekatest              "java -jar /home/eur"   About an hou
+r ago    Up About an hour    8085/tcp, 0.0.0.0:1234->4001/tcp
+
+                       heuristic_elion
+790740d425b1        eurekatest              "java -jar /home/eur"   About an hou
+r ago    Up About an hour    8085/tcp
+
+                       condescending_hoover
+ba287082a10d        siva-apache             "httpd-foreground"       2 hours ago
+          Up 2 hours          0.0.0.0:32768->80/tcp
+
+                        infallible_roentgen
+
+TRNROOM2-10+Admin@TRNROOM2-10 MINGW64 ~/Downloads
+$
